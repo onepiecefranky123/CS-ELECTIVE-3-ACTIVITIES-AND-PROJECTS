@@ -2,7 +2,7 @@
 Bidirectional Control Using Arduino and Python
 
 Leader:
-- De Silva, Krisha
+- De Silva, Krisha Joy
 
 Members:
 - Malinis, Johnbert
