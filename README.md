@@ -109,9 +109,17 @@
 ## Midterm Laboratory
 
 **Folder:** `Midterm Laboratory`  
-**Description:** *(Add a short description of the Midterm Lab activity here)*  
-**Key Files:** *(List key files in this folder)*  
-**Instructions:** *(Explain how to run or test the midterm lab)*
+**Description:**  
+Monitors light intensity with a photoresistor and controls Green, Yellow, and Red LEDs. Supports **Manual mode** (user sets thresholds via Serial commands) and **Automatic mode** (LEDs update automatically based on simulated environment). Sensor readings, LED status, and mode are printed to the Serial Monitor.
+
+**Key Files:**  
+- `Midterm_Lab.ino` – Arduino sketch
+
+**Instructions:**  
+1. Connect photoresistor to A0; LEDs to pins 11–13.  
+2. Upload the sketch and open Serial Monitor at 9600 baud.  
+3. Use commands: `MODE AUTO` / `MODE MANUAL`, `SET LOW <value>`, `SET HIGH <value>`.  
+4. LEDs indicate intensity: Green = Low, Yellow = Medium, Red = High.
 
 ---
 
