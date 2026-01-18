@@ -123,4 +123,4 @@ Monitors light intensity with a photoresistor and controls Green, Yellow, and Re
 
 ---
 
-- **Henry Luis Pula** – GitHub: [onepiecefranky123](https://github.com/onepiecefranky123)  
+- **Henry Luis Pula** 
