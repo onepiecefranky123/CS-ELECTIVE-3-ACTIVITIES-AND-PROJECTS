@@ -9,7 +9,8 @@
 5. [Laboratory Activity 5](#laboratory-activity-5)  
 6. [Laboratory Activity 6](#laboratory-activity-6)  
 7. [Laboratory Activity 7](#laboratory-activity-7)  
-8. [Midterm Laboratory](#midterm-laboratory)
+8. [Midterm Laboratory](#midterm-laboratory)  
+9. [Finals Laboratory](#finals-laboratory)
 
 ---
 
