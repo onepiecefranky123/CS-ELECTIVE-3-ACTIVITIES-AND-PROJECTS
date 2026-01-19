@@ -123,4 +123,22 @@ Monitors light intensity with a photoresistor and controls Green, Yellow, and Re
 
 ---
 
+## Finals Laboratory
+
+**Folder:** `Finals Laboratory`  
+**Description:**  
+Demonstrates an IoT-based button-triggered system where an Arduino sends a group number via Serial when a button is pressed. A Python client listens to the Serial input and triggers a FastAPI endpoint, simulating remote LED group control through a REST API.
+
+**Key Files:**  
+- `Finals_Lab.ino` – Arduino sketch with button debouncing and Serial output  
+- `iot_client.py` – Python client that reads Serial data and calls the API  
+- `api_server.py` – FastAPI server handling LED group toggle requests  
+
+**Instructions:**  
+1. Connect a push button to pin 2 using INPUT_PULLUP.  
+2. Upload the Arduino sketch and open Serial at 9600 baud.  
+3. Run the FastAPI server.  
+4. Run the Python client to listen for button presses.  
+5. Pressing the button sends the group number and triggers the API endpoint.
+
 - **Henry Luis Pula** 
